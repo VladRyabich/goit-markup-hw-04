@@ -353,7 +353,6 @@ img {
     align-items: center;
     justify-content: center;
     fill: var(--additional-text-color);
-    border: 1px solid var(--style-design-color);
     background-color: var(--style-design-color);
     border-radius: 50%;
     box-shadow: 
@@ -365,7 +364,7 @@ img {
 .social-icon {
     fill: var(--client-logo-color);
 }
-.social-icon:hover, .social-icon:focus {
+.social-link:hover .social-icon {
     fill: var(--additional-text-color);
 }
 
